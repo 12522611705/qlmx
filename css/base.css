@@ -323,6 +323,10 @@ input::placeholder{
     overflow: visible;
     font-size: 14px;
     position: relative;
+    cursor: pointer;
+}
+.nav-list li.items:hover{
+    background: #ffa200;
 }
 .nav-list li.items a{
     color: #fff;
@@ -334,6 +338,7 @@ input::placeholder{
     display: none;
     left: 0px;
     top: 46px;
+    z-index: 10;
 }
 .nav-sub-list .li{
     background: url('../images/drop_bj.png') center bottom no-repeat;
