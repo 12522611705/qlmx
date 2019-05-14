@@ -1,43 +1,4 @@
-.main-slide{
-	height: 374px;
-	width: 100%;
-	position: relative;
-}
-.main-slide img{
-	height: 100%;
-}
-.main-slide .hd{
-	position: absolute;
-	bottom: 50px;
-	width: 200px;
-	text-align: center;
-	left: 50%;
-	z-index: 111;
-	margin-left: -100px;
-}
-.main-slide .hd li{
-	display: inline-block;
-	width: 13px;
-	height: 13px;
-	border-radius: 50%;
-	margin: 0px 5px;
-	border: 2px solid #fff;
-	background-color: #00933b;
-}
-.main-slide .bd ul li{
-	height: 374px;
-	position: relative;
-	overflow:hidden;
-}
-.main-slide .bd ul li img{
-	position: absolute;
-	left: 50%;
-	top: 0px;
-	transform: translateX(-50%);
-}
-.main-slide .hd li.on{
-	background-color: #ffa200
-}
+
 .news{
 	background: url(../images/part1_bj.png) 0px 0px no-repeat;
 	padding: 40px 0px 0px;
